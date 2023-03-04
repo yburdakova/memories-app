@@ -17,7 +17,7 @@ const Input = ({ name, label, type, half, handleChange, autoFocus, handleShowPas
                 variant="outlined"
                 required
                 fullWidth
-                InputProps={name === 'password' && {
+                InputProps={ name === 'password' && {
                     endAdornment: (
                     <InputAdornment position='end'>
                         <IconButton onClick={handleShowPassword}>
